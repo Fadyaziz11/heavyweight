@@ -8,6 +8,7 @@ import { navLinks } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { CtaLink } from '@/components/ui/primitives'
 import { Wordmark } from '@/components/wordmark'
+import { AnimatedLogo } from "./animated-logo"
 
 export function SiteHeader() {
   const pathname = usePathname()
