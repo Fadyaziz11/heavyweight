@@ -186,3 +186,43 @@
     animation: none !important;
   }
 }
+
+.animated-logo {
+  animation: logoGlow 3s ease-in-out infinite;
+}
+
+.glitch-layer {
+  opacity: 0;
+  animation: glitch 5s infinite;
+}
+
+@keyframes glitch {
+  0%, 88%, 100% {
+    opacity: 0;
+    transform: translate(0);
+  }
+
+  90% {
+    opacity: .8;
+    transform: translate(-3px, 2px);
+  }
+
+  92% {
+    opacity: .5;
+    transform: translate(3px, -2px);
+  }
+
+  94% {
+    opacity: 0;
+  }
+}
+
+@keyframes logoGlow {
+  0%,100% {
+    filter: drop-shadow(0 0 0px #00ff00);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 12px #00ff00);
+  }
+}
