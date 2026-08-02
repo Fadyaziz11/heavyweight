@@ -14,8 +14,7 @@ export function AnimatedBackdrop({
     >
       {/* Gold aurora blooms */}
 <div className="animate-drift absolute -top-1/3 left-1/2 h-[46rem] w-[46rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(0,255,70,0.22),transparent_65%)] blur-3xl" />      <div className="animate-float absolute top-1/4 -left-40 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(212,175,55,0.14),transparent_65%)] blur-3xl" />
-      <div className="animate-drift absolute -right-32 bottom-0 h-[34rem] w-[34rem] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.07),transparent_65%)] blur-3xl [animation-duration:28s]" />
-
+<div className="animate-float absolute top-1/4 -left-40 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(0,255,70,0.14),transparent_65%)] blur-3xl" />
       {/* Fine grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.045)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.045)_1px,transparent_1px)] bg-[size:72px_72px] [mask-image:radial-gradient(ellipse_at_50%_35%,black,transparent_72%)]" />
 
@@ -38,7 +37,7 @@ function Equalizer() {
       {bars.map((h, i) => (
         <span
           key={i}
-          className="w-1 rounded-full bg-gradient-to-t from-gold/20 to-gold"
+          className="w-1 rounded-full bg-gradient-to-t from-green-500/20 to-green-400"
           style={{
             height: `${h * 100}%`,
             transformOrigin: 'bottom',
@@ -58,10 +57,9 @@ export function Hero() {
       <div className="relative mx-auto w-full max-w-7xl">
         <div className="max-w-4xl">
           <Reveal>
-            <span className="inline-flex items-center gap-2.5 rounded-full border border-gold/25 bg-gold-soft px-4 py-1.5 font-mono text-[0.68rem] tracking-[0.2em] text-gold uppercase">
-              <span className="relative flex size-1.5">
-                <span className="absolute inline-flex size-full animate-ping rounded-full bg-gold opacity-75" />
-                <span className="relative inline-flex size-1.5 rounded-full bg-gold" />
+<span className="inline-flex items-center gap-2.5 rounded-full border border-green-400/25 bg-green-400/10 px-4 py-1.5 font-mono text-[0.68rem] tracking-[0.2em] text-green-400 uppercase">              <span className="relative flex size-1.5">
+                <span className="absolute inline-flex size-full animate-ping rounded-full bg-green-400 opacity-75" />
+                <span className="relative inline-flex size-1.5 rounded-full bg-green-400" />
               </span>
               Music marketing agency · Cairo, Egypt
             </span>
