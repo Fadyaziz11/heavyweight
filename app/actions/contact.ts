@@ -36,10 +36,11 @@ export async function submitInquiry(
   }
 
   try {
-    // 2. إرسال الإيميل الحقيقي
+    // 2. إرسال الإيميل الحقيقي باستخدام الدومين الموثق
     await resend.emails.send({
-      from: "Heavy Weight Web <onboarding@resend.dev>",
-      to: "info@heavyweightmena.com", // إيميلك الرسمي
+      from: "Heavy Weight <info@send.heavyweightmena.com>", // العنوان الرسمي للإرسال
+      to: "info@heavyweightmena.com",                  // إيميلك اللي هيستلم الطلب
+      reply_to: email,                                 // لما تدوس Reply هيرد على إيميل العميل فوراً
       subject: `New Brief: ${name}`,
       html: `
         <div style="font-family: sans-serif; padding: 20px; color: #333; border: 1px solid #eee; border-radius: 10px;">
@@ -49,8 +50,10 @@ export async function submitInquiry(
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Service:</strong> ${service || 'Not specified'}</p>
           <p><strong>Budget:</strong> ${budget || 'Not specified'}</p>
-          <p><strong>Message:</strong></p>
+          <p style="margin-top: 20px;"><strong>Message:</strong></p>
           <div style="background: #f9f9f9; padding: 15px; border-radius: 5px;">${message}</div>
+          <br />
+          <small style="color: #888;">Sent from Heavy Weight Official Website</small>
         </div>
       `,
     });
@@ -61,9 +64,10 @@ export async function submitInquiry(
     }
 
   } catch (error) {
+    console.error(error);
     return {
       status: 'error',
-      message: 'Service temporarily unavailable. Please try again later or email us directly.',
+      message: 'Something went wrong. Please try again later.',
     }
   }
 }
