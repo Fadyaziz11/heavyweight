@@ -13,8 +13,7 @@ export function AnimatedBackdrop({
       className={`pointer-events-none absolute inset-0 overflow-hidden ${className}`}
     >
       {/* Gold aurora blooms */}
-      <div className="animate-drift absolute -top-1/3 left-1/2 h-[46rem] w-[46rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(212,175,55,0.22),transparent_65%)] blur-3xl" />
-      <div className="animate-float absolute top-1/4 -left-40 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(212,175,55,0.14),transparent_65%)] blur-3xl" />
+<div className="animate-drift absolute -top-1/3 left-1/2 h-[46rem] w-[46rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(0,255,70,0.22),transparent_65%)] blur-3xl" />      <div className="animate-float absolute top-1/4 -left-40 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(212,175,55,0.14),transparent_65%)] blur-3xl" />
       <div className="animate-drift absolute -right-32 bottom-0 h-[34rem] w-[34rem] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.07),transparent_65%)] blur-3xl [animation-duration:28s]" />
 
       {/* Fine grid */}
