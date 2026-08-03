@@ -45,14 +45,22 @@ export function ContactForm() {
           error={state.errors?.name}
           required
         />
-        <Field
-          label="Email"
-          name="email"
-          type="email"
-          placeholder="you@label.com"
-          error={state.errors?.email}
-          required
-        />
+        <div className="flex flex-col gap-3">
+          <Field
+            label="Email"
+            name="email"
+            type="email"
+            placeholder="you@label.com"
+            error={state.errors?.email}
+            required
+          />
+          <Field
+            label="Phone (optional)"
+            name="phone"
+            type="tel"
+            placeholder="+2010XXXXXXXX"
+          />
+        </div>
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
