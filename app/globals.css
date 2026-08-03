@@ -226,3 +226,52 @@
     filter: drop-shadow(0 0 12px #00ff00);
   }
 }
+
+/* Custom select dropdown styling to match dark theme */
+@layer base {
+  select {
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255,255,255,0.06);
+    -webkit-appearance: none;
+    appearance: none;
+    padding-right: 2.5rem; /* leave room for caret */
+  }
+
+  select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0,255,60,0.12);
+    border-color: rgba(0,255,60,0.35);
+  }
+
+  /* Dropdown options (works on modern browsers) */
+  select option {
+    background-color: #0b0b0b;
+    color: #ffffff;
+  }
+
+  select option:hover {
+    background-color: rgba(0,255,60,0.12);
+    color: #ffffff;
+  }
+
+  select option:checked,
+  select option:checked:focus {
+    background-color: rgba(0,255,60,0.12);
+    color: #ffffff;
+  }
+
+  /* Remove default arrow on some browsers */
+  select::-ms-expand {
+    display: none;
+  }
+
+  /* Add a custom caret using a background SVG for browsers where possible */
+  select.custom-caret {
+    background-image: linear-gradient(45deg, transparent 50%, #00ff3c 50%), linear-gradient(135deg, #00ff3c 50%, transparent 50%);
+    background-position: calc(100% - 1rem) calc(50% - 0.25rem), calc(100% - 0.7rem) calc(50% - 0.25rem);
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+  }
+}

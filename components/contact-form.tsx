@@ -64,7 +64,7 @@ export function ContactForm() {
             id="service"
             name="service"
             defaultValue=""
-            className={cn(fieldClass, 'appearance-none')}
+            className={cn(fieldClass, 'appearance-none', 'custom-caret')}
           >
             <option value="">Select a service</option>
             {services.map((service) => (
@@ -83,7 +83,7 @@ export function ContactForm() {
             id="budget"
             name="budget"
             defaultValue=""
-            className={cn(fieldClass, 'appearance-none')}
+            className={cn(fieldClass, 'appearance-none', 'custom-caret')}
           >
             <option value="">Select a range</option>
             <option value="under-2k">Under $2,000</option>
