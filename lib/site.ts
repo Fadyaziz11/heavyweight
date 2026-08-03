@@ -7,14 +7,14 @@ export const site = {
   email: 'info@heavyweightmena.com',
   phone: '+201032517499',
   whatsapp: '201032517499',
-  instagram: 'https://www.instagram.com/heavy_weight_eg',
+  instagram: 'heavy_weight_eg',
   location: 'New Cairo, Cairo, Egypt',
 } as const
 
 export const whatsappLink = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
   "Hi Heavy Weight, I'd like to talk about a campaign.",
 )}`
-export const instagramLink = site.instagram
+export const instagramLink = `https://www.instagram.com/${site.instagram}`
 
 export const navLinks = [
   { href: '/', label: 'Home' },
