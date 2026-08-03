@@ -249,13 +249,13 @@ export const projects: Project[] = [
   },
   {
     slug: 'nagham-saleh-tofan',
-    title: 'طوفان',
+    title: 'TOFAN',
     artist: 'Nagham Saleh x Sulisizer',
     category: '360° Music Video Campaign',
     year: '2025',
     image: '/projects/tiktok-campaign.jpg',
     description:
-      'Instead of traditional promotion, we built طوفان into the fabric of internet culture. Influencers became the story, TikTok became the stage, and creators worldwide turned the hook into their own moments. When the song started trending organically, the campaign wasn\'t ours anymore - it belonged to everyone sharing it.',
+      'Instead of traditional promotion, we built TOFAN into the fabric of internet culture. Influencers became the story, TikTok became the stage, and creators worldwide turned the hook into their own moments. When the song started trending organically, the campaign wasn\'t ours anymore - it belonged to everyone sharing it.',
     results: [
       { value: '700K+', label: 'TikTok Creations' },
       { value: '9.7M', label: 'YouTube Views' },
