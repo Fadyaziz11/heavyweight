@@ -185,24 +185,33 @@ export type Project = {
   results: { value: string; label: string }[]
   services: string[]
 }
+{
+  slug: '2007',
+  title: '2007',
+  artist: 'Shahyn',
+  category: '360° Marketing Campaign',
+  year: '2024',
+  image: '/projects/shahyn-2007.jpg', // غيرها لصورتك
 
-export const projects: Project[] = [
-  {
-    slug: 'shoubra-nights',
-    title: 'Shoubra Nights',
-    artist: 'Kareem X',
-    category: 'Album Campaign',
-    year: '2025',
-    image: '/projects/trap-egypt.png',
-    description:
-      'A twelve-week rollout for an Egyptian trap record — three staggered singles, a TikTok sound seeded through 40 creators, and paid amplification behind the two hooks that broke first.',
-    results: [
-      { value: '62M', label: 'Streams' },
-      { value: '4.1M', label: 'TikTok videos reach' },
-      { value: '18x', label: 'Return on ad spend' },
-    ],
-    services: ['Music Marketing', 'TikTok Marketing', 'Playlist Pitching'],
-  },
+  description:
+    'Led a 360° marketing campaign for Shahyn’s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original content concepts, creator activations, paid media, strategic media coverage, and platform-specific marketing, helping the release reach #1 on YouTube Trending Egypt and #7 on Global YouTube Trending while significantly expanding its regional and international reach.',
+
+  results: [
+    { value: '#1', label: 'YouTube Trending Egypt' },
+    { value: '#7', label: 'Global YouTube Trending' },
+    { value: '360°', label: 'Marketing Campaign' },
+  ],
+
+  services: [
+    'Creative Strategy',
+    'Music Marketing',
+    'TikTok Marketing',
+    'Instagram Marketing',
+    'YouTube Advertising',
+    'PR & Media Coverage',
+    'Creator Partnerships',
+  ],
+}
   {
     slug: 'layali-single',
     title: 'Layali',
