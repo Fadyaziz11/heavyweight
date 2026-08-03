@@ -270,19 +270,18 @@ export const projects: Project[] = [
     year: '2025',
     image: '/projects/tiktok-campaign.png',
     description:
-      'Planned and executed a full-scale 360° marketing campaign for Nagham Saleh x Sulisizer\'s "طوفان" music video. The campaign combined influencer marketing, TikTok activation, video lyrics distribution, PR coverage, and strategic social media promotion. By leveraging creator partnerships, digital media, and platform-specific content, the campaign generated massive organic momentum, helping the release reach #2 on YouTube Trending Egypt, exceed 9.7 million YouTube views, and generate more than 700,000 TikTok creations.',
+      'Instead of traditional promotion, we built طوفان into the fabric of internet culture. Influencers became the story, TikTok became the stage, and creators worldwide turned the hook into their own moments. When the song started trending organically, the campaign wasn't ours anymore—it belonged to everyone sharing it.',
     results: [
       { value: '700K+', label: 'TikTok Creations' },
       { value: '9.7M', label: 'YouTube Views' },
       { value: '#2', label: 'YouTube Trending Egypt' },
     ],
     services: [
-      '360° Marketing Strategy',
       'Influencer Marketing',
-      'TikTok Marketing',
+      'TikTok Strategy',
       'Video Lyrics Distribution',
       'PR & Media Coverage',
-      'Social Media Strategy',
+      'Social Media Marketing',
       'Music Marketing',
     ],
   },
