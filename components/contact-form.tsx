@@ -45,7 +45,7 @@ export function ContactForm() {
           error={state.errors?.name}
           required
         />
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 sm:pl-4">
           <Field
             label="Email"
             name="email"
