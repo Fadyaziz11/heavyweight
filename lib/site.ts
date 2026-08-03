@@ -184,7 +184,7 @@ export const projects: Project[] = [
     image: '/projects/shahyn-2007.jpg',
 
     description:
-      'Led a 360° marketing campaign for Shahyn’s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original content concepts, creator activations, paid media, strategic media coverage, and platform-specific marketing, helping the release reach #1 on YouTube Trending Egypt and #7 on Global YouTube Trending while significantly expanding its regional and international reach.',
+      'Led a 360° marketing campaign for Shahyn’s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original conten[...]',
 
     results: [
       { value: '#1', label: 'YouTube Trending Egypt' },
@@ -202,8 +202,6 @@ export const projects: Project[] = [
       'Creator Partnerships',
     ],
   },
-  
-}
   {
     slug: 'layali-single',
     title: 'Layali',
