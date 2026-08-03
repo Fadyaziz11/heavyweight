@@ -105,7 +105,7 @@ export const services: Service[] = [
       'Premiere & interview placement',
       'Radio servicing',
     ],
-  ,
+  },
   {
     slug: 'influencer-marketing',
     title: 'Influencer Marketing',
