@@ -33,6 +33,18 @@ export type Service = {
   deliverables: string[]
 }
 
+export type Project = {
+  slug: string
+  title: string
+  artist: string
+  category: string
+  year: string
+  image: string
+  description: string
+  results: Array<{ value: string; label: string }>
+  services: string[]
+}
+
 export const services: Service[] = [
   {
     slug: 'music-marketing',
@@ -41,7 +53,7 @@ export const services: Service[] = [
     summary:
       'End-to-end release strategy engineered around the audience that actually converts into fans.',
     detail:
-      'We architect the full release cycle — pre-save funnels, teaser sequencing, creative direction and post-release retention — so every single lands with intent instead of hope.',
+      'We architect the full release cycle — pre-save funnels, teaser sequencing, creative direction and post-release retention — so every release lands with intent instead of hope.',
     deliverables: [
       'Release roadmap & rollout calendar',
       'Audience research & positioning',
@@ -184,7 +196,7 @@ export const projects: Project[] = [
     image: '/projects/shahyn-2007.jpg',
 
     description:
-      'Led a 360° marketing campaign for Shahyn’s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original conten[...]',
+      'Led a 360° marketing campaign for Shahyn\'s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original content strategies that drove massive engagement across all platforms.',
 
     results: [
       { value: '#1', label: 'YouTube Trending Egypt' },
