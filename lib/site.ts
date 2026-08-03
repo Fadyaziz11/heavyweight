@@ -4,17 +4,17 @@ export const site = {
   description:
     'Heavy Weight is a premium music marketing agency and record label based in Cairo, Egypt. We build campaigns that turn records into movements.',
   url: 'https://heavyweight.agency',
-  email: 'hello@heavyweight.agency',
-  phone: '+20 100 000 0000',
-  whatsapp: '201000000000',
-  instagram: 'heavyweight.eg',
+  email: 'info@heavyweightmena.com',
+  phone: '+201032517499',
+  whatsapp: '201032517499',
+  instagram: 'https://www.instagram.com/heavy_weight_eg',
   location: 'New Cairo, Cairo, Egypt',
 } as const
 
 export const whatsappLink = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
   "Hi Heavy Weight, I'd like to talk about a campaign.",
 )}`
-export const instagramLink = `https://instagram.com/${site.instagram}`
+export const instagramLink = site.instagram
 
 export const navLinks = [
   { href: '/', label: 'Home' },
