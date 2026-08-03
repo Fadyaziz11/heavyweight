@@ -105,22 +105,7 @@ export const services: Service[] = [
       'Premiere & interview placement',
       'Radio servicing',
     ],
-  },
-  {
-    slug: 'playlist-pitching',
-    title: 'Playlist Pitching',
-    icon: 'ListMusic',
-    summary:
-      'Editorial and curator pitching that respects the algorithm and the audience.',
-    detail:
-      'Direct relationships with editorial teams and independent curators. No bots, no fake streams — only placements that survive skip-rate scrutiny.',
-    deliverables: [
-      'Editorial pitch submissions',
-      'Curator network outreach',
-      'Skip-rate & save-rate analysis',
-      'Algorithmic playlist priming',
-    ],
-  },
+  ,
   {
     slug: 'influencer-marketing',
     title: 'Influencer Marketing',
@@ -228,7 +213,7 @@ export const projects: Project[] = [
       { value: '340K', label: 'First-week streams' },
       { value: '27', label: 'Press features' },
     ],
-    services: ['PR Campaigns', 'Playlist Pitching', 'Digital Advertising'],
+    services: ['PR Campaigns', 'Digital Advertising'],
   },
   {
     slug: 'north-coast-tour',
