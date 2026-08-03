@@ -193,7 +193,7 @@ export const projects: Project[] = [
     artist: 'Shahyn',
     category: '360° Marketing Campaign',
     year: '2024',
-    image: '/projects/shahyn-2007.jpg',
+    image: '/projects/shahyn-2007.PNG',
 
     description:
       'Led a 360° marketing campaign for Shahyn\'s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original content strategies that drove massive engagement across all platforms.',
