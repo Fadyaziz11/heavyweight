@@ -228,20 +228,30 @@ export const projects: Project[] = [
   },
   {
     slug: 'north-coast-tour',
-    title: 'North Coast Tour',
-    artist: 'Sahara Collective',
-    category: 'Live & Ticketing',
+    title: 'A.L.A x FREEK',
+    artist: 'A.L.A x FREEK',
+    category: 'CROSS-BORDER CAMPAIGN',
     year: '2024',
     image: '/projects/live-tour.png',
     description:
-      'Six-city summer run sold through geo-targeted paid media and creator partnerships, with dynamic retargeting tied directly to ticketing inventory.',
+      'Bringing A.L.A and FREEK together required market fluency. Heavy Weight crafted a Tunisia-first rollout—placements across leading Tunisian music pages, creator partnerships that honoured local culture, earned coverage in entertainment press, and regionally tuned platform campaigns. The collaboration translated cultural authenticity into sustained organic momentum across North Africa and the wider MENA.',
     results: [
-      { value: '100%', label: 'Shows sold out' },
-      { value: '11.4K', label: 'Tickets sold' },
-      { value: '£E 62', label: 'Cost per ticket' },
+      { value: '#1', label: 'YouTube Trending Tunisia' },
+      { value: '3.3M+', label: 'YouTube Views' },
+      { value: 'Regional PR Campaign', label: 'PR' },
     ],
-    services: ['Digital Advertising', 'Influencer Marketing'],
+    services: [
+      'Cross-Border Marketing Strategy',
+      'Tunisian Media Outreach',
+      'PR & Entertainment Media',
+      'Creator Partnerships',
+      'Music Marketing',
+      'Digital Advertising',
+      'Social Media Marketing',
+      'Platform Strategy',
+    ],
   },
+
   {
     slug: 'catalogue-relaunch',
     title: 'Catalogue Relaunch',
