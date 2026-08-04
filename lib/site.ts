@@ -297,6 +297,33 @@ export const projects: Project[] = [
     ],
     services: ['YouTube Promotion', 'Digital Advertising'],
   },
+  {
+    slug: 'mousv',
+    title: 'Mousv',
+    artist: 'Mousv',
+    category: 'EXCLUSIVE PARTNERSHIP',
+    year: '2021–Present',
+    image: '/projects/studio-session.jpg',
+    description:
+      'Following an opening hit, Heavy Weight became Mousv\u2019s exclusive marketing partner. Over four years we developed platform-tailored strategies—TikTok campaigns, Instagram activations, Facebook community growth, creator partnerships, PR and performance marketing—delivering 20+ trending releases and sustained audience growth. The focus: long-term artist development, catalog resilience and consistent visibility across every platform.',
+    results: [
+      { value: '4+ Years', label: 'Partnership' },
+      { value: '20+', label: 'Trending Releases' },
+      { value: 'Exclusive', label: 'Marketing Partner' },
+    ],
+    services: [
+      'Long-Term Marketing Strategy',
+      'Exclusive Artist Partnership',
+      'Release Strategy',
+      'TikTok Marketing',
+      'Instagram Marketing',
+      'Facebook Community Marketing',
+      'PR & Media Coverage',
+      'Creator Partnerships',
+      'Performance Marketing',
+      'Music Marketing',
+    ],
+  },
 ]
 
 export const testimonials = [
