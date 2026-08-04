@@ -232,7 +232,7 @@ export const projects: Project[] = [
     artist: 'A.L.A x FREEK',
     category: 'CROSS-BORDER CAMPAIGN',
     year: '2024',
-    image: '/projects/live-tour.png',
+    image: '/projects/live-tour.jpg',
     description:
       'Bringing A.L.A and FREEK together required market fluency. Heavy Weight crafted a Tunisia-first rollout—placements across leading Tunisian music pages, creator partnerships that honoured local culture, earned coverage in entertainment press, and regionally tuned platform campaigns. The collaboration translated cultural authenticity into sustained organic momentum across North Africa and the wider MENA.',
     results: [
