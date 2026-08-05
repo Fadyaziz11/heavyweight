@@ -45,14 +45,22 @@ export function ContactForm() {
           error={state.errors?.name}
           required
         />
-        <Field
-          label="Email"
-          name="email"
-          type="email"
-          placeholder="you@label.com"
-          error={state.errors?.email}
-          required
-        />
+        <div className="flex flex-col gap-3 sm:pl-4">
+          <Field
+            label="Email"
+            name="email"
+            type="email"
+            placeholder="you@label.com"
+            error={state.errors?.email}
+            required
+          />
+          <Field
+            label="Phone (optional)"
+            name="phone"
+            type="tel"
+            placeholder="+2010XXXXXXXX"
+          />
+        </div>
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
@@ -64,7 +72,7 @@ export function ContactForm() {
             id="service"
             name="service"
             defaultValue=""
-            className={cn(fieldClass, 'appearance-none')}
+            className={cn(fieldClass, 'appearance-none', 'custom-caret')}
           >
             <option value="">Select a service</option>
             {services.map((service) => (
@@ -83,7 +91,7 @@ export function ContactForm() {
             id="budget"
             name="budget"
             defaultValue=""
-            className={cn(fieldClass, 'appearance-none')}
+            className={cn(fieldClass, 'appearance-none', 'custom-caret')}
           >
             <option value="">Select a range</option>
             <option value="under-2k">Under $2,000</option>

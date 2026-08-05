@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export type ContactState = {
   status: 'idle' | 'success' | 'error';
   message?: string;
-  errors?: Partial<Record<'name' | 'email' | 'message', string>>;
+  errors?: Partial<Record<'name' | 'email' | 'message' | 'phone', string>>;
 };
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -18,6 +18,7 @@ export async function submitInquiry(
   const name = String(formData.get('name') ?? '').trim();
   const email = String(formData.get('email') ?? '').trim();
   const message = String(formData.get('message') ?? '').trim();
+  const phone = String(formData.get('phone') ?? '').trim();
   const service = String(formData.get('service') ?? '').trim();
   const budget = String(formData.get('budget') ?? '').trim();
 
@@ -25,6 +26,8 @@ export async function submitInquiry(
   if (name.length < 2) errors.name = 'Please enter your name.';
   if (!emailPattern.test(email)) errors.email = 'Please enter a valid email.';
   if (message.length < 12) errors.message = 'Tell us more about your project.';
+  // phone is optional — no validation unless provided (basic length check)
+  if (phone && phone.length < 7) errors.phone = 'Please enter a valid phone number.';
 
   if (Object.keys(errors).length > 0) {
     return {
@@ -45,6 +48,7 @@ export async function submitInquiry(
           <h2>New Project Inquiry</h2>
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Phone:</strong> ${phone || 'N/A'}</p>
           <p><strong>Service:</strong> ${service}</p>
           <p><strong>Budget:</strong> ${budget}</p>
           <p><strong>Message:</strong> ${message}</p>

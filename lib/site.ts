@@ -4,17 +4,17 @@ export const site = {
   description:
     'Heavy Weight is a premium music marketing agency and record label based in Cairo, Egypt. We build campaigns that turn records into movements.',
   url: 'https://heavyweight.agency',
-  email: 'hello@heavyweight.agency',
-  phone: '+20 100 000 0000',
-  whatsapp: '201000000000',
-  instagram: 'heavyweight.eg',
+  email: 'info@heavyweightmena.com',
+  phone: '+201032517499',
+  whatsapp: '201032517499',
+  instagram: 'heavy_weight_eg',
   location: 'New Cairo, Cairo, Egypt',
 } as const
 
 export const whatsappLink = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
   "Hi Heavy Weight, I'd like to talk about a campaign.",
 )}`
-export const instagramLink = `https://instagram.com/${site.instagram}`
+export const instagramLink = `https://www.instagram.com/${site.instagram}`
 
 export const navLinks = [
   { href: '/', label: 'Home' },
@@ -33,6 +33,18 @@ export type Service = {
   deliverables: string[]
 }
 
+export type Project = {
+  slug: string
+  title: string
+  artist: string
+  category: string
+  year: string
+  image: string
+  description: string
+  results: Array<{ value: string; label: string }>
+  services: string[]
+}
+
 export const services: Service[] = [
   {
     slug: 'music-marketing',
@@ -41,7 +53,7 @@ export const services: Service[] = [
     summary:
       'End-to-end release strategy engineered around the audience that actually converts into fans.',
     detail:
-      'We architect the full release cycle — pre-save funnels, teaser sequencing, creative direction and post-release retention — so every single lands with intent instead of hope.',
+      'We architect the full release cycle — pre-save funnels, teaser sequencing, creative direction and post-release retention — so every release lands with intent instead of hope.',
     deliverables: [
       'Release roadmap & rollout calendar',
       'Audience research & positioning',
@@ -92,21 +104,6 @@ export const services: Service[] = [
       'Journalist & blog outreach',
       'Premiere & interview placement',
       'Radio servicing',
-    ],
-  },
-  {
-    slug: 'playlist-pitching',
-    title: 'Playlist Pitching',
-    icon: 'ListMusic',
-    summary:
-      'Editorial and curator pitching that respects the algorithm and the audience.',
-    detail:
-      'Direct relationships with editorial teams and independent curators. No bots, no fake streams — only placements that survive skip-rate scrutiny.',
-    deliverables: [
-      'Editorial pitch submissions',
-      'Curator network outreach',
-      'Skip-rate & save-rate analysis',
-      'Algorithmic playlist priming',
     ],
   },
   {
@@ -164,14 +161,12 @@ export const stats = [
 ] as const
 
 export const clients = [
-  'ANGHAMI',
-  'SPOTIFY MENA',
-  'SONY MUSIC',
-  'RED SEA LABEL',
-  'CAIRO FM',
-  'NILE RECORDS',
-  'DEEZER',
-  'TIKTOK MENA',
+  'VIRAL WAVE',
+  'ONERPM',
+  'B62 RECORDS',
+  'GXR RECORDS',
+  'DROP MANAGEMENT',
+  'RAW ENTERTAINMENT',
 ] as const
 
 export const projects: Project[] = [
@@ -181,10 +176,10 @@ export const projects: Project[] = [
     artist: 'Shahyn',
     category: '360° Marketing Campaign',
     year: '2024',
-    image: '/projects/shahyn-2007.jpg',
+    image: '/projects/shahyn-2007.PNG',
 
     description:
-      'Led a 360° marketing campaign for Shahyn’s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original conten[...]',
+      'Led a 360° marketing campaign for Shahyn\'s "2007", introducing a fresh creative direction across TikTok, Instagram, YouTube, PR, and digital media. The campaign combined original content strategies that drove massive engagement across all platforms.',
 
     results: [
       { value: '#1', label: 'YouTube Trending Egypt' },
@@ -203,68 +198,130 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: 'layali-single',
-    title: 'Layali',
-    artist: 'Nour Halim',
-    category: 'Single Launch',
+    slug: 'wayyak',
+    title: 'WAYYAK',
+    artist: 'Noel Kharman',
+    category: 'REGIONAL CREATOR CAMPAIGN',
     year: '2025',
+    image: '/projects/wayyak.jpg',
+    description:
+      'WAYYAK was conceived as a regional creator-led movement. Heavy Weight assembled a Levant-wide network of TikTok creators, music pages and entertainment communities to seed platform-native stories rooted in local culture. The campaign prioritized creator culture and cross-market dialogues, turning short-form moments into sustained regional conversations and building durable awareness for Noel Kharman across the Middle East and Levant.',
+    results: [
+      { value: 'Pan‑Levant', label: 'Regional visibility' },
+      { value: 'Creator‑led wave', label: 'Organic momentum' },
+      { value: 'Wide editorial pickup', label: 'Press & communities' },
+    ],
+    services: [
+      'Regional Music Marketing',
+      'TikTok Creator Marketing',
+      'Creator Partnerships',
+      'Digital PR',
+      'Music Community Marketing',
+      'Social Media Strategy',
+      'Cross-Market Campaigns',
+      'Music Marketing',
+    ],
+  },
+  {
+    slug: 'abo-el-anwar',
+    title: 'Abo El Anwar',
+    artist: 'Abo El Anwar',
+    category: 'LONG-TERM MARKETING',
+    year: '2023–present',
     image: '/projects/singer-cairo.png',
     description:
-      'Editorial-first launch for a modern Arabic pop ballad. We built the press narrative around the artist’s Alexandria roots and secured premiere coverage across MENA music media.',
+      'For over three years Heavy Weight and Abo El Anwar have sustained an always-on partnership: albums, music videos, daily social management, ongoing digital advertising, PR, and catalog-first strategy. The focus is continuous visibility, measurable audience growth, artist development and catalog performance—turning releases into sustained career momentum rather than isolated moments.',
     results: [
-      { value: '9', label: 'Editorial playlists' },
-      { value: '340K', label: 'First-week streams' },
-      { value: '27', label: 'Press features' },
+      { value: '3+ Years', label: 'Partnership' },
+      { value: '20+', label: 'Campaigns Delivered' },
+      { value: 'Always-On', label: 'Marketing' },
     ],
-    services: ['PR Campaigns', 'Playlist Pitching', 'Digital Advertising'],
+    services: [
+      'Long-Term Marketing Strategy',
+      'Artist Development',
+      'Music Marketing',
+      'Social Media Management',
+      'Content Strategy',
+      'Digital Advertising',
+      'PR & Media Coverage',
+      'Release Strategy',
+      'Catalog Marketing',
+      'Audience Growth',
+    ],
   },
   {
     slug: 'north-coast-tour',
-    title: 'North Coast Tour',
-    artist: 'Sahara Collective',
-    category: 'Live & Ticketing',
+    title: 'A.L.A x FREEK',
+    artist: 'A.L.A x FREEK',
+    category: 'CROSS-BORDER CAMPAIGN',
     year: '2024',
-    image: '/projects/live-tour.png',
+    image: '/projects/live-tour.jpg',
     description:
-      'Six-city summer run sold through geo-targeted paid media and creator partnerships, with dynamic retargeting tied directly to ticketing inventory.',
+      'Bringing A.L.A and FREEK together required market fluency. Heavy Weight crafted a Tunisia-first rollout—placements across leading Tunisian music pages, creator partnerships that honoured local culture, earned coverage in entertainment press, and regionally tuned platform campaigns. The collaboration translated cultural authenticity into sustained organic momentum across North Africa and the wider MENA.',
     results: [
-      { value: '100%', label: 'Shows sold out' },
-      { value: '11.4K', label: 'Tickets sold' },
-      { value: '£E 62', label: 'Cost per ticket' },
+      { value: '#1', label: 'YouTube Trending Tunisia' },
+      { value: '3.3M+', label: 'YouTube Views' },
+      { value: 'Regional PR Campaign', label: 'PR' },
     ],
-    services: ['Digital Advertising', 'Influencer Marketing'],
+    services: [
+      'Cross-Border Marketing Strategy',
+      'Tunisian Media Outreach',
+      'PR & Entertainment Media',
+      'Creator Partnerships',
+      'Music Marketing',
+      'Digital Advertising',
+      'Social Media Marketing',
+      'Platform Strategy',
+    ],
   },
+
   {
     slug: 'catalogue-relaunch',
-    title: 'Catalogue Relaunch',
-    artist: 'Nile Records',
-    category: 'Distribution',
+    title: 'intifada',
+    artist: 'Mond',
+    category: 'ARTIST REBRAND',
     year: '2024',
-    image: '/projects/studio-session.png',
+    image: '/projects/intifada.jpg',
     description:
-      'We re-delivered a 240-track back catalogue with corrected metadata, recovered Content ID revenue and rebuilt artist profiles across every major platform.',
+      'intifada marked the rebirth of Mohab as Mond—a full artist transformation that reset identity, tone and audience expectations. The album launch anchored a brand repositioning supported by platform-specific marketing, PR and sustained social programming. Over four years this approach delivered long-term audience growth, five Top‑20 YouTube tracks and a TikTok top‑10 moment, establishing Mond as a durable, market-ready artist brand.',
     results: [
-      { value: '240', label: 'Tracks re-delivered' },
-      { value: '+214%', label: 'Royalty uplift' },
-      { value: '150+', label: 'Stores live' },
+      { value: '5', label: 'Top 20 YouTube Tracks' },
+      { value: '#10', label: 'TikTok Trending Egypt' },
+      { value: 'Complete', label: 'Artist Rebrand' },
     ],
-    services: ['Music Distribution', 'Music Marketing'],
+    services: [
+      'Artist Rebranding',
+      'Brand Strategy',
+      'Album Marketing',
+      'Release Strategy',
+      'Social Media Management',
+      'Digital Advertising',
+      'PR & Media Coverage',
+      'Audience Growth',
+    ],
   },
   {
-    slug: 'sound-of-the-city',
-    title: 'Sound of the City',
-    artist: 'Maadi Boys',
-    category: 'TikTok Campaign',
+    slug: 'nagham-saleh-tofan',
+    title: 'TOFAN',
+    artist: 'Nagham Saleh x Sulisizer',
+    category: '360° Music Video Campaign',
     year: '2025',
-    image: '/projects/tiktok-campaign.png',
+    image: '/projects/tiktok-campaign.jpg',
     description:
-      'A single-hook challenge engineered for repeat use. The sound page became the campaign — organic creator adoption outpaced paid seeding within nine days.',
+      'Instead of traditional promotion, we built TOFAN into the fabric of internet culture. Influencers became the story, TikTok became the stage, and creators worldwide turned the hook into their own moments. When the song started trending organically, the campaign wasn\'t ours anymore - it belonged to everyone sharing it.',
     results: [
-      { value: '86K', label: 'Videos created' },
-      { value: '210M', label: 'Total views' },
-      { value: '#3', label: 'Egypt viral chart' },
+      { value: '700K+', label: 'TikTok Creations' },
+      { value: '9.7M', label: 'YouTube Views' },
+      { value: '#2', label: 'YouTube Trending Egypt' },
     ],
-    services: ['TikTok Marketing', 'Influencer Marketing'],
+    services: [
+      'Influencer Marketing',
+      'TikTok Strategy',
+      'Video Lyrics Distribution',
+      'PR & Media Coverage',
+      'Social Media Marketing',
+      'Music Marketing',
+    ],
   },
   {
     slug: 'analog-hearts',
@@ -272,7 +329,7 @@ export const projects: Project[] = [
     artist: 'The Delta Line',
     category: 'YouTube Growth',
     year: '2024',
-    image: '/projects/band-collective.png',
+    image: '/projects/band-collective.jpg',
     description:
       'Channel rebuild for an alternative four-piece: new thumbnail system, chaptered long-form uploads and pre-roll targeting against adjacent regional acts.',
     results: [
@@ -281,6 +338,33 @@ export const projects: Project[] = [
       { value: '7.2M', label: 'Views' },
     ],
     services: ['YouTube Promotion', 'Digital Advertising'],
+  },
+  {
+    slug: 'mousv',
+    title: 'Mousv',
+    artist: 'Mousv',
+    category: 'EXCLUSIVE PARTNERSHIP',
+    year: '2021–Present',
+    image: '/projects/studio-session.jpg',
+    description:
+      'Following an opening hit, Heavy Weight became Mousv\u2019s exclusive marketing partner. Over four years we developed platform-tailored strategies—TikTok campaigns, Instagram activations, Facebook community growth, creator partnerships, PR and performance marketing—delivering 20+ trending releases and sustained audience growth. The focus: long-term artist development, catalog resilience and consistent visibility across every platform.',
+    results: [
+      { value: '4+ Years', label: 'Partnership' },
+      { value: '20+', label: 'Trending Releases' },
+      { value: 'Exclusive', label: 'Marketing Partner' },
+    ],
+    services: [
+      'Long-Term Marketing Strategy',
+      'Exclusive Artist Partnership',
+      'Release Strategy',
+      'TikTok Marketing',
+      'Instagram Marketing',
+      'Facebook Community Marketing',
+      'PR & Media Coverage',
+      'Creator Partnerships',
+      'Performance Marketing',
+      'Music Marketing',
+    ],
   },
 ]
 
