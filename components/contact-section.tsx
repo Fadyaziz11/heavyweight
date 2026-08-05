@@ -63,7 +63,7 @@ export function ContactSection({
                     className="group flex items-center gap-5 py-5 transition-colors"
                   >
                     <span className="inline-flex size-11 items-center justify-center rounded-full border border-white/10 text-muted-foreground transition-all duration-300 group-hover:border-gold/50 group-hover:bg-gold-soft group-hover:text-gold">
-                      {channel.external ? (
+                      {channel.external && channel.label !== 'WhatsApp' ? (
                                                 <div className="w-8 h-8 rounded-sm bg-black p-1 flex items-center justify-center">
                                                   <img
                                                     src="/icons/external-icon.png"
