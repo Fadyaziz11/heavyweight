@@ -63,11 +63,7 @@ export function ContactSection({
                     className="group flex items-center gap-5 py-5 transition-colors"
                   >
                     <span className="inline-flex size-11 items-center justify-center rounded-full border border-white/10 text-muted-foreground transition-all duration-300 group-hover:border-gold/50 group-hover:bg-gold-soft group-hover:text-gold">
-                      {channel.external ? (
-                        <img src="/icons/logo-icon.png" className="size-4 object-contain" aria-hidden="true" alt="" />
-                      ) : (
-                        <channel.icon className="size-4" aria-hidden="true" />
-                      )}
+                      <channel.icon className="size-4" aria-hidden="true" />
                     </span>
                     <span className="flex flex-col">
                       <span className="font-mono text-[0.64rem] tracking-[0.2em] text-muted-foreground uppercase">
