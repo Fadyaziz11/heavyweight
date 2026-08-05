@@ -254,13 +254,13 @@ export const projects: Project[] = [
 
   {
     slug: 'catalogue-relaunch',
-    title: 'ENTIFADA',
+    title: 'intifada',
     artist: 'Mond',
     category: 'ARTIST REBRAND',
     year: '2024',
-    image: '/projects/band-collective.png',
+    image: '/projects/band-collective.jpg',
     description:
-      'ENTIFADA marked the rebirth of Mohab as Mond—a full artist transformation that reset identity, tone and audience expectations. The album launch anchored a brand repositioning supported by platform-specific marketing, PR and sustained social programming. Over four years this approach delivered long-term audience growth, five Top‑20 YouTube tracks and a TikTok top‑10 moment, establishing Mond as a durable, market-ready artist brand.',
+      'intifada marked the rebirth of Mohab as Mond—a full artist transformation that reset identity, tone and audience expectations. The album launch anchored a brand repositioning supported by platform-specific marketing, PR and sustained social programming. Over four years this approach delivered long-term audience growth, five Top‑20 YouTube tracks and a TikTok top‑10 moment, establishing Mond as a durable, market-ready artist brand.',
     results: [
       { value: '5', label: 'Top 20 YouTube Tracks' },
       { value: '#10', label: 'TikTok Trending Egypt' },
@@ -306,7 +306,7 @@ export const projects: Project[] = [
     artist: 'The Delta Line',
     category: 'YouTube Growth',
     year: '2024',
-    image: '/projects/band-collective.png',
+    image: '/projects/band-collective.jpg',
     description:
       'Channel rebuild for an alternative four-piece: new thumbnail system, chaptered long-form uploads and pre-roll targeting against adjacent regional acts.',
     results: [
