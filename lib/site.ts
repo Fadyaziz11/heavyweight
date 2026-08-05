@@ -205,7 +205,7 @@ export const projects: Project[] = [
     artist: 'Noel Kharman',
     category: 'REGIONAL CREATOR CAMPAIGN',
     year: '2025',
-    image: '/projects/singer-cairo.png',
+    image: '/projects/wayyak.jpg',
     description:
       'WAYYAK was conceived as a regional creator-led movement. Heavy Weight assembled a Levant-wide network of TikTok creators, music pages and entertainment communities to seed platform-native stories rooted in local culture. The campaign prioritized creator culture and cross-market dialogues, turning short-form moments into sustained regional conversations and building durable awareness for Noel Kharman across the Middle East and Levant.',
     results: [
