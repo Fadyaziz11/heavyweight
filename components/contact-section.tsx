@@ -64,7 +64,7 @@ export function ContactSection({
                   >
                     <span className="inline-flex size-11 items-center justify-center rounded-full border border-white/10 text-muted-foreground transition-all duration-300 group-hover:border-gold/50 group-hover:bg-gold-soft group-hover:text-gold">
                       {channel.external ? (
-                        <img src="/icons/external-icon.png" className="w-4 h-4 object-contain" aria-hidden="true" alt="" />
+                        <img src="/icons/external-icon.png" srcSet="/icons/external-icon@2x.png 2x" className="w-4 h-4 object-contain" aria-hidden="true" alt="" />
                       ) : (
                         <channel.icon className="size-4" aria-hidden="true" />
                       )}
