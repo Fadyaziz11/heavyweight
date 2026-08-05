@@ -161,14 +161,12 @@ export const stats = [
 ] as const
 
 export const clients = [
-  'ANGHAMI',
-  'SPOTIFY MENA',
-  'SONY MUSIC',
-  'RED SEA LABEL',
-  'CAIRO FM',
-  'NILE RECORDS',
-  'DEEZER',
-  'TIKTOK MENA',
+  'VIRAL WAVE',
+  'ONERPM',
+  'B62 RECORDS',
+  'GXR RECORDS',
+  'DROP MANAGEMENT',
+  'RAW ENTERTAINMENT',
 ] as const
 
 export const projects: Project[] = [
