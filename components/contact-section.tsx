@@ -64,10 +64,18 @@ export function ContactSection({
                   >
                     <span className="inline-flex size-11 items-center justify-center rounded-full border border-white/10 text-muted-foreground transition-all duration-300 group-hover:border-gold/50 group-hover:bg-gold-soft group-hover:text-gold">
                       {channel.external ? (
-                        <img src="/icons/external-icon.png" srcSet="/icons/external-icon@2x.png 2x" className="w-4 h-4 object-contain" aria-hidden="true" alt="" />
-                      ) : (
-                        <channel.icon className="size-4" aria-hidden="true" />
-                      )}
+                                                <div className="w-8 h-8 rounded-sm bg-black p-1 flex items-center justify-center">
+                                                  <img
+                                                    src="/icons/external-icon.png"
+                                                    srcSet="/icons/external-icon@2x.png 2x"
+                                                    className="w-6 h-6 object-contain"
+                                                    aria-hidden="true"
+                                                    alt="External"
+                                                  />
+                                                </div>
+                                              ) : (
+                                                <channel.icon className="size-4" aria-hidden="true" />
+                                              )}
                     </span>
                     <span className="flex flex-col">
                       <span className="font-mono text-[0.64rem] tracking-[0.2em] text-muted-foreground uppercase">
