@@ -200,6 +200,31 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: 'wayyak',
+    title: 'WAYYAK',
+    artist: 'Noel Kharman',
+    category: 'REGIONAL CREATOR CAMPAIGN',
+    year: '2025',
+    image: '/projects/singer-cairo.png',
+    description:
+      'WAYYAK was conceived as a regional creator-led movement. Heavy Weight assembled a Levant-wide network of TikTok creators, music pages and entertainment communities to seed platform-native stories rooted in local culture. The campaign prioritized creator culture and cross-market dialogues, turning short-form moments into sustained regional conversations and building durable awareness for Noel Kharman across the Middle East and Levant.',
+    results: [
+      { value: 'Pan‑Levant', label: 'Regional visibility' },
+      { value: 'Creator‑led wave', label: 'Organic momentum' },
+      { value: 'Wide editorial pickup', label: 'Press & communities' },
+    ],
+    services: [
+      'Regional Music Marketing',
+      'TikTok Creator Marketing',
+      'Creator Partnerships',
+      'Digital PR',
+      'Music Community Marketing',
+      'Social Media Strategy',
+      'Cross-Market Campaigns',
+      'Music Marketing',
+    ],
+  },
+  {
     slug: 'abo-el-anwar',
     title: 'Abo El Anwar',
     artist: 'Abo El Anwar',
