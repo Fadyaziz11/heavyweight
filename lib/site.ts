@@ -258,7 +258,7 @@ export const projects: Project[] = [
     artist: 'Mond',
     category: 'ARTIST REBRAND',
     year: '2024',
-    image: '/projects/band-collective.jpg',
+    image: '/projects/intifada.jpg',
     description:
       'intifada marked the rebirth of Mohab as Mond—a full artist transformation that reset identity, tone and audience expectations. The album launch anchored a brand repositioning supported by platform-specific marketing, PR and sustained social programming. Over four years this approach delivered long-term audience growth, five Top‑20 YouTube tracks and a TikTok top‑10 moment, establishing Mond as a durable, market-ready artist brand.',
     results: [
