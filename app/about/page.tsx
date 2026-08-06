@@ -105,21 +105,35 @@ export default function AboutPage() {
             />
             <div className="mt-7 flex flex-col gap-5 text-base leading-relaxed text-muted-foreground text-pretty">
               <p>
-                Heavy Weight began in 2019 as a small promo team pushing
-                independent Egyptian rap. The scene was exploding, but the
-                infrastructure around it was not — artists had the songs and no
-                route to the audience.
+                Heavy Weight started with two friends who simply loved rap.
               </p>
+
               <p>
-                So we built the route. First paid media, then press, then
-                playlists, then distribution and a label arm to sign the acts we
-                believed in. Today the same team handles all of it, which means
-                nothing gets lost between agencies.
+                We weren't a company, marketers, or industry professionals—we were just
+                fans. Most of our closest friends were making music, so naturally, we
+                started helping them share their songs and reach more people. No
+                contracts, no plans—just a group of friends supporting each other.
               </p>
+
               <p>
-                We work with independent artists, managers and labels across
-                Egypt, the Gulf and the Levant — and we still take on debut
-                releases when the record is good enough.
+                As we saw the impact of what we were doing, curiosity turned into
+                passion. We spent the next year learning everything we could about
+                music marketing, experimenting, learning, and growing with every
+                release.
+              </p>
+
+              <p>
+                That's when Heavy Weight was born.
+              </p>
+
+              <p>
+                Even today, that feeling hasn't changed. Every artist we work with
+                becomes part of our journey, not just another client. We celebrate
+                the wins together, face the challenges together, and grow together.
+              </p>
+
+              <p>
+                Heavy Weight isn't just a company—it's a family built around music.
               </p>
             </div>
           </Reveal>
