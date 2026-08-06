@@ -76,25 +76,6 @@ export default function AboutPage() {
         description="Heavy Weight started because talented artists in Egypt kept losing to worse records with better marketing. We exist to close that gap."
       />
 
-      <Section className="border-t border-white/8 pt-0 lg:pt-0">
-        <Reveal className="relative overflow-hidden rounded-3xl border border-white/8">
-          <Image
-            src="/about-studio.png"
-            alt="The Heavy Weight team working late in their Cairo studio office"
-            width={1600}
-            height={900}
-            sizes="(min-width: 1280px) 1200px, 100vw"
-            className="h-[38vh] w-full object-cover sm:h-[52vh]"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 p-8 sm:p-12">
-            <p className="max-w-xl text-lg leading-snug font-medium text-balance sm:text-2xl">
-              Eighteen people. One floor in New Cairo. Every discipline a release
-              needs, sitting in the same room.
-            </p>
-          </div>
-        </Reveal>
-      </Section>
 
       <Section className="pt-0 lg:pt-0">
         <div className="grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
