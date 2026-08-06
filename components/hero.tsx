@@ -100,9 +100,10 @@ export function Hero() {
                 <Equalizer />
               </div>
               {[
-                ['480M+', 'Streams generated'],
-                ['1,200+', 'Campaigns delivered'],
-                ['38', 'Countries reached'],
+                ['270M+', 'Streams Generated'],
+                ['250+', 'Campaigns Delivered'],
+                ['10+', 'Countries Reached'],
+                ['50+', 'Artists & Brands Worked With'],
               ].map(([value, label]) => (
                 <div key={label} className="flex flex-col gap-1">
                   <dt className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
