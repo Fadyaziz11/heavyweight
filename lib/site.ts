@@ -154,10 +154,10 @@ export const services: Service[] = [
 ]
 
 export const stats = [
-  { value: '480M+', label: 'Streams generated' },
-  { value: '1,200+', label: 'Campaigns delivered' },
-  { value: '38', label: 'Countries reached' },
-  { value: '96%', label: 'Client retention' },
+  { value: '270M+', label: 'Streams Generated' },
+  { value: '250+', label: 'Campaigns Delivered' },
+  { value: '10+', label: 'Countries Reached' },
+  { value: '50+', label: 'Artists & Brands Worked With' },
 ] as const
 
 export const clients = [
