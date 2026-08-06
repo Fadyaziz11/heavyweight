@@ -41,23 +41,23 @@ const values = [
 const timeline = [
   {
     year: '2019',
-    title: 'Founded in Cairo',
-    body: 'Started as a two-person promo team running paid campaigns for independent Egyptian rappers out of a Maadi apartment.',
+    title: 'It all started with rap.',
+    body: 'Two friends, countless playlists, and a group of friends making music. We started by helping independent rappers promote their releases—simply because we believed in them.',
+  },
+  {
+    year: '2020',
+    title: 'Learning by doing',
+    body: 'Every release became a lesson. We explored music marketing, social media, paid advertising, and audience growth, building our experience one campaign at a time.',
   },
   {
     year: '2021',
-    title: 'Label arm launched',
-    body: 'Signed our first three artists and built in-house distribution to 150+ stores with transparent royalty reporting.',
+    title: 'Heavy Weight was born',
+    body: 'What started as helping friends officially became Heavy Weight—a music marketing company built by music fans, for artists.',
   },
   {
-    year: '2023',
-    title: 'Regional expansion',
-    body: 'Opened campaigns across the Gulf and Levant, partnering with platforms and labels on MENA-wide rollouts.',
-  },
-  {
-    year: '2025',
-    title: '480M streams and counting',
-    body: 'A team of 18 marketers, A&Rs, editors and media buyers delivering more than 1,200 campaigns to date.',
+    year: 'Today',
+    title: 'Growing with every release',
+    body: 'From independent artists to labels, distributors, and entertainment brands, we continue helping music reach the right audience through strategy, creativity, and genuine passion.',
   },
 ]
 
