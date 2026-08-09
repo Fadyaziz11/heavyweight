@@ -23,7 +23,7 @@ const channels = [
   {
     icon: Instagram,
     label: 'Instagram',
-    value: 'heavy_weight_eg',
+    value: site.instagram,
     href: instagramLink,
     external: true,
   },
