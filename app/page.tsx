@@ -15,6 +15,8 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
+  const SHOW_TESTIMONIALS = false // toggle to true to re-enable testimonials
+
   return (
     <>
       <Hero />
@@ -22,7 +24,7 @@ export default function HomePage() {
       <StatsSection />
       <FeaturedWork />
       <ServicesPreview />
-      <TestimonialsSection />
+      {SHOW_TESTIMONIALS && <TestimonialsSection />}
       <ContactSection />
     </>
   )
