@@ -1,10 +1,11 @@
 "use client"
 
 import Image from "next/image"
+import { cn } from '@/lib/utils'
 
-export function AnimatedLogo() {
+export function AnimatedLogo({ className }: { className?: string }) {
   return (
-    <div className="animated-logo relative h-10 w-10">
+    <div className={cn('animated-logo relative h-10 w-10', className)}>
       <Image
         src="/logo-icon.png"
         alt="Heavy Weight"

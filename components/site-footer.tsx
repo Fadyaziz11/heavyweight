@@ -8,7 +8,7 @@ import {
   site,
   whatsappLink,
 } from '@/lib/site'
-import { Wordmark } from '@/components/wordmark'
+import { AnimatedLogo } from '@/components/animated-logo'
 
 export function SiteFooter() {
   return (
@@ -20,7 +20,7 @@ export function SiteFooter() {
       <div className="relative mx-auto w-full max-w-7xl px-6 py-16 sm:px-8 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
           <div className="flex flex-col gap-6">
-            <Wordmark />
+            <AnimatedLogo className="h-10 w-10" />
             <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
               A music marketing agency and record label building campaigns that
               turn records into movements — from Cairo to the world.
