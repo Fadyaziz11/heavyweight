@@ -266,22 +266,6 @@ export const projects: Project[] = [
     ],
     services: ['TikTok Marketing', 'Influencer Marketing'],
   },
-  {
-    slug: 'analog-hearts',
-    title: 'Analog Hearts',
-    artist: 'The Delta Line',
-    category: 'YouTube Growth',
-    year: '2024',
-    image: '/projects/band-collective.png',
-    description:
-      'Channel rebuild for an alternative four-piece: new thumbnail system, chaptered long-form uploads and pre-roll targeting against adjacent regional acts.',
-    results: [
-      { value: '+680%', label: 'Watch time' },
-      { value: '124K', label: 'Subscribers gained' },
-      { value: '7.2M', label: 'Views' },
-    ],
-    services: ['YouTube Promotion', 'Digital Advertising'],
-  },
 ]
 
 export const testimonials = [
